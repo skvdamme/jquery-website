@@ -1,0 +1,79 @@
+<!--jQuery Practice Exercise:
+
+Create a basic html page without any CSS styling to it, the page should have at least 10 elements on it.
+
+Use jQuery to animate the elements, 
+you can for instance use hide(), show(),fadeIn(),fadeOut(),slideToggle()...etc. 
+You should have at least 5 different effects happen.
+
+You must also have at least 3 different events handlers as well 
+(you can choose for instance click,hover and mouseEnter but you're free to use others if you want).
+
+If you've forgotten what events are, check out this page: https://learn.jquery.com/events/ 
+(Links to an external site.) Links to an external site.
+
+Finally, upload your solution on Github and submit the URL.
+
+Succes! ;)-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage - Welcome
+	</title>
+		
+</head>
+
+<body>
+
+<div class="header">
+	<h1> Sam's site</h1>
+    <h2>Favorite animals:</h2>
+    	<ol>
+    		<!-- <i><button id="button1">Click</button></i> -->
+           <div id="elephant"> <li>Elephant</li>
+    		<img id="image01" src= "http://i.huffpost.com/gen/4770790/images/o-ELEPHANT-facebook.jpg" width="400px" height="300px" alt="An image of an elephant"/>
+            <div id="elephanttext"> <p>Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are recognised, the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.</p></div>
+            <div id= "elephanttext2"><p>Male African elephants are the largest extant terrestrial animals and can reach a height of 4 m (13 ft) and weigh 7,000 kg (15,000 lb). All elephants have several distinctive features, the most notable of which is a long trunk or proboscis, used for many purposes, particularly breathing, lifting water, and grasping objects. Their incisors grow into tusks, which can serve as weapons and as tools for moving objects and digging. Elephants' large ear flaps help to control their body temperature. Their pillar-like legs can carry their great weight. African elephants have larger ears and concave backs while Asian elephants have smaller ears and convex or level backs.</p></div>
+            <button id= "button1">Hide</button>
+            <p><a href= "https://en.wikipedia.org/wiki/Elephant" target="_blank" > Learn more about elephants here</p></a></div>
+
+    		<div id="lion"><li>Lion</li>
+    		<img id="image02" src="http://media-channel.nationalgeographic.com/media/uploads/photos/content/video/2014/10/29/349582915975_349582915975_720p_5994_Racing_Speeds_DMS.jpg" width="400px" height="300px" alt= "An image of a lion"/>
+            <div id="liontext"><p>The lion (Panthera leo) is one of the big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies in Africa. With some males exceeding 250 kg (550 lb) in weight,[5] it is the second-largest living cat after the tiger, barring hybrids like the liger.[6][7] Wild lions currently exist in sub-Saharan Africa and in India (where an endangered remnant population resides in and around Gir Forest National Park). </p></div>
+            <div id="liontext2"><p> In ancient historic times, their range was in most of Africa, including North Africa, and across Eurasia from Greece and southeastern Europe to India. In the late Pleistocene, about 10,000 years ago, the lion was the most widespread large land mammal after humans: Panthera leo spelaea lived in northern and western Europe and Panthera leo atrox lived in the Americas from the Yukon to Peru. The lion is classified as a vulnerable species by the International Union for Conservation of Nature (IUCN), having seen a major population decline in its African range of 30–50% over two decades during the second half of the twentieth century. Lion populations are untenable outside designated reserves and national parks. Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes of concern. Within Africa, the West African lion population is particularly endangered.</p></div>
+            <button id= "button2">Hide</button>
+            <p><a href= "https://en.wikipedia.org/wiki/Lion" taget="_blank" > Learn more about lions here</p></a></div>
+
+
+    		<div id="pig"><li>Pig</li>
+    		<img id="image03" src="	http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Mammals/H-P/pig-fence.ngsversion.1396530611778.jpg " width="400px" height="300px" alt="An image of a pig"/>
+            <div id="pigtext"><p>A pig is any of the animals in the genus Sus, within the even-toed ungulate family Suidae. Pigs include the domestic pig and its ancestor, the common Eurasian wild boar (Sus scrofa), along with other species; related creatures outside the genus include the peccary, the babirusa, and the warthog. Pigs, like all suids, are native to the Eurasian and African continents. Juvenile pigs are known as piglets. Pigs are highly social and intelligent animals.</p></div>
+            <p><a href= "https://en.wikipedia.org/wiki/Pig" target="_blank" > Learn more about pigs here</p></div></a>
+
+
+    		<div id="dog"><li>Dog</li>
+    		<img id="image04" src= "http://mybusydog.com/wp-content/uploads/2016/03/small_dog_and_large_dog.jpg" width="400px" height="300px" alt=" An image of 2 dogs"/>
+            <div id="dogtext"><p>The domestic dog (Canis lupus familiaris or Canis familiaris) is a member of genus Canis (canines) that forms part of the wolf-like canids, and is the most widely abundant carnivore. The dog and the extant gray wolf are sister taxa, with modern wolves not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct.</p>
+            <p><a href= "https://en.wikipedia.org/wiki/Dog" target="_blank" > Learn more about dogs here</p></a></div>
+    	
+
+            <div id="koala" ><li>Koala</li>
+            <img id="image05" src="https://media1.britannica.com/eb-media/23/190523-004-E64483DF.jpg" width="400px" height="300px" alt="An image of a Koala mum with her child"/>
+            <div id="koalatext"><p>The koala (Phascolarctos cinereus, or, inaccurately, koala bear) is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats. The koala is found in coastal areas of the mainland's eastern and southern regions, inhabiting Queensland, New South Wales, Victoria, and South Australia. It is easily recognisable by its stout, tailless body and large head with round, fluffy ears and large, spoon-shaped nose.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Koala" target="_blank" > Learn more about koalas here</a></p></div>
+            </div>
+         </ol>
+  </div>
+		    
+			
+			
+			
+		
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jQuery practice exercise.js" type="text/javascript"></script>
+
+</body>
+</html>
+ 
